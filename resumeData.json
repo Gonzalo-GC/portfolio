@@ -1,0 +1,80 @@
+{
+    "main": {
+        "email": "gonzalo_gallego@outlook.com",
+        "pages": [
+            {
+                "name": "About me",
+                "link": "about"
+            },
+            {
+                "name": "Projects",
+                "link": "projects"
+            },
+            {
+                "name": "Contact me",
+                "link": "contact"
+            }
+        ],
+        "description": "I'm Gonzalo Gallego, a Software Developer based somewhere",
+        "social": [
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/gonzalo-gallego-cardo-754655151/",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+            },
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/gonzalo_gallego/",
+                "target": "_blank",
+                "rel": "noopener noreferrer"
+            },
+            {
+                "name": "E-mail",
+                "url": "mailto:gonzalo_gallego@outlook.com",
+                "target": "",
+                "rel": ""
+            }
+        ],
+        "about_1": "Hey, I’m Gonzalo Gallego and I’m a Software Developer. I'm from Albacete (Spain) but currently I'm studying Software Engineer Degree in Univesity of Murcia.",
+        "about_2": "I spend a lot of my time reading and watching technology reviews and I also read about programming languages in order to know them. My favourite language is Java (maybe because it's the language I have used more)",
+        "skills": [
+            {
+                "title": "Programming Languages",
+                "name_1": "Java",
+                "name_2": "C/C++",
+                "name_3": "SQL"
+            },
+            {
+                "title": "Programming Languages",
+                "name_1": "Python",
+                "name_2": "HTML/CSS",
+                "name_3": "PHP"
+            },
+            {
+                "title": "Frameworks",
+                "name_1": "JUnit",
+                "name_2": "Laravel",
+                "name_3": "Ionic"
+            },
+            {
+                "title": "Knowledge",
+                "name_1": "Requirements Engineering",
+                "name_2": "Design Patterns",
+                "name_3": "UML"
+            },
+            {
+                "title": "Knowledge",
+                "name_1": "Algorithm",
+                "name_2": "Data Structures",
+                "name_3": "Git"
+            },
+            {
+                "title": "Others",
+                "name_1": "Regular expressions",
+                "name_2": "Maven",
+                "name_3": "Flutter"
+            }
+        ]
+    }
+}
