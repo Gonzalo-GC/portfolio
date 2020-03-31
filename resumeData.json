@@ -37,7 +37,7 @@
             }
         ],
         "about_1": "Hey, I’m Gonzalo Gallego and I’m a Software Developer. I'm from Albacete (Spain) but currently I'm studying Software Engineer Degree in Univesity of Murcia.",
-        "about_2": "I spend a lot of my time reading and watching technology reviews and I also read about programming languages in order to know them. My favourite language is Java (maybe because it's the language I have used more)",
+        "about_2": "I spend a lot of my time reading and watching technology reviews and I also read about programming languages in order to know them. My favourite language is Java (maybe because it's the language I have used more).",
         "skills": [
             {
                 "title": "Programming Languages",
@@ -74,6 +74,14 @@
                 "name_1": "Regular expressions",
                 "name_2": "Maven",
                 "name_3": "Flutter"
+            }
+        ],
+        "experience": [
+            {
+                "enterprise": "Openred Soluciones, S.L.",
+                "comment_1": "2 months (internship)",
+                "comment_2": "Backend Developer (Laravel)",
+                "comment_3": "Animated banner (HTML/CSS)"
             }
         ]
     }
