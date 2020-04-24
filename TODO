@@ -1,0 +1,13 @@
+Header:
+
+About:
+
+Projects:
+
+Contact:
+
+
+"homepage": "http://Gonzalo-GC.github.io/portfolio",
+,
+"predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
