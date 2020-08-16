@@ -1,0 +1,209 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+//////////PORTRAIT/////////
+/* Small devices portrait */
+@keyframes welcome {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+.header {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: -o-linear-gradient(315deg, rgba(6, 9, 9, 0.75) 0%, rgba(6, 9, 9, 0.75) 100%),
+    url("../images/headerBackground.jpg");
+  background-image: linear-gradient(135deg, rgba(6, 9, 9, 0.75) 0%, rgba(6, 9, 9, 0.75) 100%),
+    url("../images/headerBackground.jpg");
+  background-position: 100% 100%;
+  background-attachment: scroll;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.welcome {
+  position: absolute;
+  top: 20vh;
+  padding: 0;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+.welcome-responsive {
+  display: none;
+}
+.typewriter > h1 {
+  font-size: 70px;
+  color: white;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: 4px; /* Adjust as needed */
+  -webkit-animation: typing 1s steps(10, end);
+  animation: typing 1s steps(10, end);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.welcome > h1 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: white;
+  margin-top: 10vh;
+  width: 70%;
+  -webkit-animation: welcome 3s;
+  animation: welcome 3s;
+}
+
+/* Medium devices portrait */
+@media only screen and (min-width: 768px) {
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 60%;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 60%;
+    }
+  }
+  .typewriter > h1 {
+    font-size: 80px;
+    -webkit-animation: typing 1s steps(10, end);
+    animation: typing 1s steps(10, end);
+    width: 60%;
+  }
+  .welcome > h1 {
+    font-size: 50px;
+    line-height: 60px;
+    width: 70%;
+  }
+}
+/* Large devices portrait */
+@media only screen and (min-width: 992px) {
+  .header {
+    background-image: -o-linear-gradient(315deg, rgba(6, 9, 9, 0.75) 0%, rgba(6, 9, 9, 0.75) 100%),
+      url("../images/headerBackgroundLandscape.jpg");
+    background-image: linear-gradient(135deg, rgba(6, 9, 9, 0.75) 0%, rgba(6, 9, 9, 0.75) 100%),
+      url("../images/headerBackgroundLandscape.jpg");
+    background-position: left;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+  }
+}
+//////////LANDSCAPE//////////
+/* Small devices landscape */
+@media only screen and (orientation: landscape) {
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  .header {
+    background-image: -o-linear-gradient(315deg, rgba(6, 9, 9, 0.75) 0%, rgba(6, 9, 9, 0.75) 100%),
+      url("../images/headerBackgroundLandscape.jpg");
+    background-image: linear-gradient(135deg, rgba(6, 9, 9, 0.75) 0%, rgba(6, 9, 9, 0.75) 100%),
+      url("../images/headerBackgroundLandscape.jpg");
+    background-position: center;
+  }
+  .welcome {
+    top: 10vh;
+    left: 40vw;
+    margin-right: 5vw;
+  }
+  .welcome > h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-right: 0;
+  }
+  .typewriter > h1 {
+    width: 80%;
+  }
+}
+/* Medium devices landscape */
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  .welcome {
+    top: 30vh;
+  }
+  .typewriter > h1 {
+    font-size: 80px;
+    width: 70%;
+  }
+  .welcome > h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-right: 0;
+  }
+}

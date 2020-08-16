@@ -1,0 +1,32 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+$background: #0b0a15;
+$orange: #ff8c00;
+$grey: #51505b;
+
+.footer {
+  font-family: "Josefin Sans", sans-serif;
+  background: $background;
+  padding-bottom: 5vh;
+}
+
+.footer h3 {
+  margin: 0 0 0 5vw;
+  padding: 0;
+  color: $grey;
+  font-size: 15px;
+}
+
+.footer a {
+  color: $orange;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}

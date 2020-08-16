@@ -1,86 +1,56 @@
 {
-    "email": "gonzalo_gallego@outlook.com",
-    "pages": [
-        {
-            "name": "About me",
-            "link": "about"
-        },
-        {
-            "name": "Projects",
-            "link": "projects"
-        },
-        {
-            "name": "Contact me",
-            "link": "contact"
-        }
-    ],
-    "description": "I'm Gonzalo Gallego, a Software Developer based somewhere",
-    "social": [
-        {
-            "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/gonzalo-gallego-cardo-754655151/",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
-        },
-        {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/gonzalo_gallego/",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
-        },
-        {
-            "name": "E-mail",
-            "url": "mailto:gonzalo_gallego@outlook.com",
-            "target": "",
-            "rel": ""
-        }
-    ],
-    "about_1": "Hey, I’m Gonzalo Gallego, a Software Developer. I'm from Albacete (Spain) but currently studying Software Engineer Degree in Univesity of Murcia.",
-    "about_2": "I've mostly developed with Java and C/C++ but I also know other programming languages as Python. Right now I am studying Web Development languages as ReactJs by my own (this is my first Web page with React). My purpose right now is to become an advanced developer.",
-    "skills": [
-        {
-            "title": "Programming Languages",
-            "name_1": "Java",
-            "name_2": "C/C++",
-            "name_3": "SQL"
-        },
-        {
-            "title": "Programming Languages",
-            "name_1": "Python",
-            "name_2": "HTML/CSS",
-            "name_3": "PHP"
-        },
-        {
-            "title": "Frameworks",            
-            "name_1": "Laravel",
-            "name_2": "Ionic",
-            "name_3": "Flutter"
-        },
-        {
-            "title": "Knowledge",
-            "name_1": "Requirements Engineering",
-            "name_2": "Design Patterns",
-            "name_3": "UML"
-        },
-        {
-            "title": "Knowledge",
-            "name_1": "Algorithm",
-            "name_2": "Data Structures",
-            "name_3": "Git"
-        },
-        {
-            "title": "Others",
-            "name_1": "Regular expressions",
-            "name_2": "Maven",
-            "name_3": "JUnit"
-        }
-    ],
-    "career": [
-        {
-            "enterprise": "Openred Soluciones, S.L.",
-            "date": "OCTOBER 2019 - DECEMBER 2019 (INTERSHIP)",
-            "comment_2": "Backend Developer (Laravel)",
-            "comment_3": "Animated banner (HTML/CSS)"
-        }
-    ]
+  "email": "gonzalogallegocardo@gmail.com",
+  "about_1": "Hey, I’m Gonzalo Gallego, a Software Developer. I'm from Albacete (Spain) but currently studying Software Engineer Degree in Univesity of Murcia.",
+  "about_2": "I've mostly developed with Java and C/C++ during my Degree but I also know other programming languages as Python. Since May (2020) I am developing in JS, learning something new every day (as an active Medium member)",
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "name_1": "Java",
+      "name_2": "C/C++",
+      "name_3": "SQL"
+    },
+    {
+      "title": "Programming Languages",
+      "name_1": "Python",
+      "name_2": "JS/HTML/CSS",
+      "name_3": "PHP"
+    },
+    {
+      "title": "Frameworks",
+      "name_1": "Laravel",
+      "name_2": "Ionic",
+      "name_3": "Flutter"
+    },
+    {
+      "title": "Knowledge",
+      "name_1": "Requirements Engineering",
+      "name_2": "Design Patterns",
+      "name_3": "UML"
+    },
+    {
+      "title": "Knowledge",
+      "name_1": "Algorithm",
+      "name_2": "Data Structures",
+      "name_3": "Git"
+    },
+    {
+      "title": "Others",
+      "name_1": "Regular expressions",
+      "name_2": "Maven",
+      "name_3": "JUnit"
+    }
+  ],
+  "career": [
+    {
+      "enterprise": "Openred Soluciones, S.L.",
+      "date": "OCTOBER 2019 - DECEMBER 2019 (INTERSHIP)",
+      "comment_2": "Backend Developer (Laravel)",
+      "comment_3": "Animated banner (HTML/CSS)"
+    },
+    {
+      "enterprise": "BaalDev",
+      "date": "MAY 2020 - CURRENTLY (INTERSHIP)",
+      "comment_2": "Full Stack developer (ReactJS and Node.js)"
+    }
+  ]
 }

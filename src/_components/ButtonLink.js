@@ -13,10 +13,10 @@ export default function ButtonLink() {
                 offset={-150}
                 duration={500}
             >
-                <div class="container">
-                    <div class="bg"></div>
-                    <div class="button">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                <div className="container">
+                    <div className="bg"></div>
+                    <div className="button">
+                    <i className="fa fa-chevron-up" aria-hidden="true"></i>
                     </div>
                 </div>
             </Link>

@@ -1,0 +1,381 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+$red: #ff2d55;
+$green: #4cd964;
+$background: #2c303a;
+$orange: #ff8c00;
+
+@-webkit-keyframes progressAnimation1 {
+  0% {
+    width: 5%;
+    background-color: $red;
+  }
+  50% {
+    width: 85%;
+    background-color: $green;
+  }
+  100% {
+    width: 85%;
+    background-color: $green;
+  }
+}
+
+@keyframes progressAnimation1 {
+  0% {
+    width: 5%;
+    background-color: $red;
+  }
+  50% {
+    width: 85%;
+    background-color: $green;
+  }
+  100% {
+    width: 85%;
+    background-color: $green;
+  }
+}
+
+@-webkit-keyframes progressAnimation2 {
+  0% {
+    width: 5%;
+    background-color: $red;
+  }
+  50% {
+    width: 65%;
+    background-color: $green;
+  }
+  100% {
+    width: 65%;
+    background-color: $green;
+  }
+}
+
+@keyframes progressAnimation2 {
+  0% {
+    width: 5%;
+    background-color: $red;
+  }
+  50% {
+    width: 65%;
+    background-color: $green;
+  }
+  100% {
+    width: 65%;
+    background-color: $green;
+  }
+}
+
+@-webkit-keyframes progressAnimation3 {
+  0% {
+    width: 5%;
+    background-color: $red;
+  }
+  50% {
+    width: 50%;
+    background-color: $green;
+  }
+  100% {
+    width: 50%;
+    background-color: $green;
+  }
+}
+
+@keyframes progressAnimation3 {
+  0% {
+    width: 5%;
+    background-color: $red;
+  }
+  50% {
+    width: 50%;
+    background-color: $green;
+  }
+  100% {
+    width: 50%;
+    background-color: $green;
+  }
+}
+
+@-webkit-keyframes progressAnimation4 {
+  0% {
+    width: 5%;
+    background-color: $red;
+  }
+  50% {
+    width: 50%;
+    background-color: $green;
+  }
+  100% {
+    width: 50%;
+    background-color: $green;
+  }
+}
+
+@keyframes progressAnimation4 {
+  0% {
+    width: 5%;
+    background-color: $red;
+  }
+  50% {
+    width: 50%;
+    background-color: $green;
+  }
+  100% {
+    width: 50%;
+    background-color: $green;
+  }
+}
+
+@-webkit-keyframes progressAnimation5 {
+  0% {
+    width: 5%;
+    background-color: $red;
+  }
+  50% {
+    width: 40%;
+    background-color: $green;
+  }
+  100% {
+    width: 40%;
+    background-color: $green;
+  }
+}
+
+@keyframes progressAnimation5 {
+  0% {
+    width: 5%;
+    background-color: $red;
+  }
+  50% {
+    width: 40%;
+    background-color: $green;
+  }
+  100% {
+    width: 40%;
+    background-color: $green;
+  }
+}
+
+.root-container-about {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+.about-container {
+  margin: 0;
+  padding: 0;
+  padding-top: 10vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+.title {
+  font-size: 35px;
+  margin: 0 5vw 5vh 15vw;
+  color: $orange;
+}
+.text {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 10vh;
+  font-size: 18px;
+  line-height: 35px;
+}
+.text > a {
+  text-decoration: none;
+  color: $orange;
+}
+.skills-container {
+  background: $background;
+  padding-top: 10vh;
+  margin-bottom: 0vh;
+}
+.skills-title {
+  color: white;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 15vw;
+}
+.title-line {
+  background: $orange;
+  margin-left: 22vw;
+  margin-bottom: 5vh;
+  width: 75px;
+  height: 5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left-progress {
+  float: left;
+  width: 30%;
+}
+.left-progress > p {
+  color: white;
+  font-size: 20px;
+  margin-left: 10vw;
+}
+.right-progress {
+  float: left;
+  width: 60%;
+  margin-top: 15px;
+}
+.progress-container {
+  width: 60vw;
+}
+.progress {
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar {
+  height: 18px;
+  border-radius: 30px;
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 255, 255, 0.3)),
+    to(rgba(255, 255, 255, 0.05))
+  );
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+}
+.progress-moved .progress-bar {
+  width: 85%;
+  background-color: #4cd964;
+  -webkit-animation: progressAnimation1 8s infinite;
+  animation: progressAnimation1 8s infinite;
+}
+.progress-moved .progress-bar2 {
+  width: 65%;
+  background-color: #4cd964;
+  -webkit-animation: progressAnimation2 8s infinite;
+  animation: progressAnimation2 8s infinite;
+}
+.progress-moved .progress-bar3 {
+  width: 50%;
+  background-color: #4cd964;
+  -webkit-animation: progressAnimation3 8s infinite;
+  animation: progressAnimation3 8s infinite;
+}
+.progress-moved .progress-bar4 {
+  width: 50%;
+  background-color: #4cd964;
+  -webkit-animation: progressAnimation4 8s infinite;
+  animation: progressAnimation4 8s infinite;
+}
+.progress-moved .progress-bar5 {
+  width: 40%;
+  background-color: #4cd964;
+  -webkit-animation: progressAnimation5 8s infinite;
+  animation: progressAnimation5 8s infinite;
+}
+.workEducation-container {
+  background: -webkit-gradient(linear, left top, left bottom, from($background), to(#0b0a15));
+  background: -o-linear-gradient(top, $background, #0b0a15);
+  background: linear-gradient(to bottom, $background, #0b0a15);
+  padding-top: 10vh;
+}
+.w-e-title {
+  color: white;
+  font-size: 30px;
+  margin-top: 0vh;
+  margin-bottom: 10px;
+  margin-left: 15vw;
+}
+.timeLine-line {
+  position: inherit;
+  height: 5px;
+  width: 100%;
+  background: white;
+}
+.timeLine-container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.timeLine-end-line-1 {
+  position: relative;
+  left: 11vw;
+  width: 4px;
+  height: 100px;
+  background: -o-linear-gradient(top, white, $orange);
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to($orange));
+  background: linear-gradient(to bottom, white, $orange);
+}
+.timeLine-end-line-2 {
+  position: relative;
+  left: 45px;
+  width: 4px;
+  height: 150px;
+  background: $orange;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .title {
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+  }
+  .text {
+    font-size: 22px;
+    margin-left: 15vw;
+  }
+  .body-progress {
+    background: $background;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  .skills-title {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 5vw;
+  }
+  .title-line {
+    background: $orange;
+    margin: 0 0 5vh 8vw;
+    width: 75px;
+    height: 5px;
+  }
+  .w-e-title {
+    margin-left: 5vw;
+  }
+  .timeLine-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .vertical-timeline {
+    width: 50%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1170px) {
+  .date-white {
+    color: white;
+  }
+}
